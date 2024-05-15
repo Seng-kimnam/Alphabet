@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.5s;
+  
+
+}
+li:hover
+{
+  /* z-index: 1; */
+  transform: scale(1.3);
+  color:white;
+}
+h2 {
+  top : 0;  
+  /* z-index: ; */
+
+  text-align: center;
+  position: sticky;
+  background: rgb(77, 77, 77);
+  color : white;
+
+  
+}
+.names {
+  /* border-radius: 20px; */
+  box-shadow: 0 0 100px rgb(0, 0, 0);
+  background: rgb(160, 160, 160);
+  border: 10px solid rgb(49, 48, 48);
+  height: 530px;
+  width: 25%;
+  border: 2 solid black;
+  overflow: hidden scroll;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10vh auto;
+  /* overscroll-behavior-x: 1px; */
+  /* overflow-anchor: auto; */
+}
